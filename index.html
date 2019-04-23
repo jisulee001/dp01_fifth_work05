@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>상세페이지 디자인</title>
+	<meta charset = 'utf-8'>
+
+</head>
+<style>
+h1{font-family:'yg-jalnan'; font-size:4em; line-height:1.8em; color:#11b6c9;}
+h3{font-family:'Arita-dotum-Medium'; font-size:2em; color:#3e5089;}
+h5{font-size:1.5em; color:red;}
+p {font-family:'Arita-dotum-Medium'; font-size:1.5em; line-height:1.8em;
+	color:#707070;}
+
+
+header{width:1200px; height:1300px; position:relative; margin:auto;}
+section{width:1000px; height:10700px;height; margin:auto; text-align:center;
+		position:relative;}
+footer{width:1200px; height:900px; position:relative; margin:auto;}
+
+.title{  width:900px; height:700px; position:relative; margin:auto; margin-bottom:80px; 
+		margin-top:40px; text-align:center; padding:80px 0px 30px 0px;
+		background:url('cloud.png'); background-repeat:no-repeat; background-size:500px;}
+
+.select{width:900px; height:320px; margin:auto; margin-bottom:100px; text-align:center;
+		border:8px solid #3e5089;}
+.wrap{width:900px; height:190px; margin:auto;}
+.item{width:120px; height:185px; float:left; margin-left:29px;}
+.circle{width:100px; height:100px; border-radius:50%; }
+.small {font-family:'Arita-dotum-Medium'; font-size:0.8em; width:110px; height:20px; text-align:center;
+		margin-left:0px;}
+.deco {width:240px; height:100px; background:url('pattern.png'); position:absolute; right:20px;
+		background-repeat:no-repeat; z-index:8;}
+.deco2 {width:900px;  height: 660px; background:url('dot.png'); position:absolute; z-index:6; top:-60px;
+		background-size:115%;}
+
+.img{width:900px; margin:30px 0px 60px 0px;}
+.line {border:solid 10px #3e5089; width:880px; margin:auto; margin-bottom,top:0px;}
+.detail{width:900px; margin:auto;}
+
+.review{font-size:1.2em; margin-bottom:200px;}
+
+table {width:700px; height:800px; margin:auto; margin-bottom:150px; text-align:left; }
+table, th, tr, td {border: 1px dotted grey; border-collapse:collapse; font-size:1.1em; color:#585858; padding-left:20px;}
+tr,td{font-size:1em; padding-left:20px; }
+
+@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); .notosanskr * { font-family: 'Noto Sans KR', sans-serif; }
+@font-face { font-family: 'Arita-dotum-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+</style>
+<body>
+
+	<header>
+		<img src = 'header.jpg' style = 'width:1200px;'>
+		<hr style = 'width:1050px; border:0.5px solid #CBCBCB;'>
+		<div style = 'width:1200px; height:350px; margin:auto; text-align:center;
+						margin-top:30px; margin-bottom:30px;'>
+			<img src = 'header2.jpg' style = 'width:1000px;'>	
+		</div>
+	</header>
+
+	<section>
+		<div class = 'title'>
+			<div class = 'deco'></div>
+			<div class = 'deco2'></div>
+			<h1>보기만 해도<br>
+			흐뭇한<br>
+			다꾸 입문 키트</h1>
+			<p style = 'padding-top:110px; '>다이어리를 새로 샀는데... <b>어떻게 꾸며야 할지</b> 고민이라구요?<br>
+			베스트 아이템만 모아놨어요. 이것만 있으면 이제 나도 <b>다꾸 마스터!</b></p>
+		</div>
+
+		<div class = 'select'>
+			<h5>select item</h5>
+				<div class = 'wrap'>
+					<div class = 'item'>
+						<div class = 'circle' style = 'background:url(select1.jpg); background-repeat:no-repeat; 	background-size:cover; background-position:45% 0px;'></div>
+						<p class = 'small'>해 달 구름 포스트잇</p>
+					</div>
+					<div class = 'item'>
+						<div class = 'circle' style = 'background:url(select2.jpg); background-repeat:no-repeat; 	background-size:cover; background-position:50% 0px;'></div>
+						<p class = 'small'>리움 알파벳스티커</p>
+					</div>
+					<div class = 'item'>
+						<div class = 'circle' style = 'background:url(select3.jpg); background-repeat:no-repeat; 	background-size:cover; background-position:50% 0px;'></div>
+						<p class = 'small'>솜솜 메모지</p>
+					</div>
+					<div class = 'item'>
+						<div class = 'circle' style = 'background:url(select4.jpg); background-repeat:no-repeat; 	background-size:cover; background-position:50% 0px;'></div>
+						<p class = 'small'>저감도 볼펜</p>
+					</div>
+					<div class = 'item'>
+						<div class = 'circle' style = 'background:url(select5.jpg); background-repeat:no-repeat; 	background-size:cover; background-position:55% 0px; '></div>
+						<p class = 'small'>솔리드 원형스티커</p>
+					</div>
+					<div class = 'item'>
+						<div class = 'circle' style = 'background:url(select6.jpg); background-repeat:no-repeat; 	background-size:cover; background-position:50% 0px; '></div>
+						<p class = 'small'>다이소 마스킹테이프</p>
+					</div>
+				</div>
+		</div>
+
+			<img src = 'main1.jpg' class= 'img'>
+			<img src = 'main2.jpg' class = 'img'>
+			<img src = 'dashline.jpg' style = 'margin:30px 0px 60px 0px;'>
+
+		<div class = 'detail'>
+			<img src = 'detail1.jpg' class = 'detail'>
+			<hr class = 'line'>
+			<img src = 'detail2.jpg' class = 'detail'>
+			<hr class = 'line'>
+			<img src = 'detail3.jpg' class = 'detail' style='margin-bottom:200px;'>
+			<img src = 'review1.jpg' class = 'detail' style = 'margin-bottom:40px;'>
+			<p class = 'review' > 산 포스트잇를 이용해 중요한 날을 체크하거나, 마스킹테이프로 긴 일정을 표시해보세요. </p>
+			<img src = 'review4.jpg' class = 'detail' style = 'margin-bottom:40px;'>
+			<p class = 'review' > 구름 포스트잇을 이용해 염원을 적기도, 리움 알파벳 스티커를 이용해 기념일을 챙겨도 좋아요.</p>
+			<img src = 'review2.jpg' class = 'detail' style = 'margin-bottom:40px;'>
+			<p class = 'review' > 귀여운 솜솜 메모지를 이용해 메모를 해보아요. 너무 귀엽죠? </p>
+
+			<img src = 'detail4.jpg' class = 'detail' style = 'margin-bottom:80px;''>
+
+			<p style= 'margin-bottom:100px;'>이 키트 하나면 당신도 이제 <b>다꾸 마스터!</b> 
+			<br><b>다양하게 활용해보세요.</b></p>
+		</div>
+		<div class = 'product'>
+			<img src = 'dashline.jpg' style = 'margin-bottom:20px;'>
+			<h3 style = 'margin-bottom :80px; margin-top:20px;'>제품 상세</h3>
+			<img src ='product.jpg' class = 'detail' style = 'margin-bottom:100px;'>
+			<table >
+				
+					<th style = "width:200px;">제품</th>
+					<th style = "width:400px;">상세정보</th>
+
+				<tr>
+						<td rowspan="3"> 솔리드 원형스티커 </td>
+						<td> 사이즈 : 7.5cm X 9cm </td>
+					</tr>
+					<tr>
+						<td> 개 수 : 3장  </td>
+					</tr>
+					<tr>
+						<td> 제조사 : 모르게사</td>
+					</tr>
+				<tr>
+						<td rowspan="3"> 솜솜 메모지 </td>
+						<td> 사이즈 : 4cm X 5.5cm </td>
+					</tr>
+					<tr>
+						<td> 개 수 : 40매  </td>
+					</tr>
+					<tr>
+						<td> 제조사 : 솜솜</td>
+					</tr>
+				<tr>
+						<td rowspan = "3"> 저감도 볼펜  </td>
+						<td> 사이즈 : 15cm X 0.8cm </td>
+					</tr>
+					<tr>
+						<td> 개 수 : 1 개  </td>
+					</tr>
+					<tr>
+						<td> 제조사 : 라이브워크</td>
+					</tr>
+				<tr>
+						<td rowspan = "3"> 하늘 구름 산 포스트잇  </td>
+						<td> 사이즈 : 9cm X 10.5cm </td>
+					</tr>
+					<tr>
+						<td> 개 수 :  각 20매  </td>
+					</tr>
+					<tr>
+						<td> 제조사 : 칠삼이일 디자인</td>
+					</tr>
+				<tr>
+						<td rowspan = "3"> 리움 알파벳 스티커  </td>
+						<td> 사이즈 : 8cm X 10cm </td>
+					</tr>
+					<tr>
+						<td> 개 수 :  3장  </td>
+					</tr>
+					<tr>
+						<td> 제조사 : 리움 스튜디오</td>
+					</tr>
+				<tr>
+						<td rowspan = "3"> 마스킹 테이프  </td>
+						<td> 사이즈 : 3m X 0.5cm </td>
+					</tr>
+					<tr>
+						<td> 개 수 :  3개  </td>
+					</tr>
+					<tr>
+						<td> 제조사 : 다이소</td>
+					</tr>
+			</table>
+		</div>
+		<div>
+			<p style = "font-size:1em;">@2019 한경대학교 디자인학과 이지수. 모든 권리 보유.</p>
+		</div>
+	</section>
+
+	<footer>
+		<img src = 'footer.jpg' style = 'width:1200px;'>
+	</footer>
+
+</body>
+</html>
